@@ -1,2 +1,68 @@
 @import 'reset';
+@import '_config';
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+    
+    
+}
+
+.navCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.125rem;
+    background-color: $davys-grey;
+    color: $cultured;
+    height: 6.25rem;
+    
+}
+
+.navLinks{
+    display: flex;
+    justify-content: space-between;
+    gap: 3.125rem;
+    list-style-type: none;
+    
+
+    a{
+        text-decoration: none;
+        color: inherit;
+
+        &:hover{
+            color: $light-gray;
+        }
+
+    }
+    
+}
+
+
+main{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+
+    .container{
+        background-color: $davys-grey;
+        width: 31.25rem;
+        padding: 3.125rem;
+        color: $cultured;
+        border-radius: 20px;
+    }
+        
+}
+
+
+.colorName{
+    text-transform: uppercase;    
+}
 
