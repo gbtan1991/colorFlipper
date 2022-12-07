@@ -26,11 +26,15 @@ header{
     
 }
 
+
+
 .navLinks{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 3.125rem;
     list-style-type: none;
+    height: 6.25rem;
     
 
     a{
@@ -39,6 +43,8 @@ header{
 
         &:hover{
             color: $light-gray;
+            background-color: $gray-web;
+            
         }
 
     }
@@ -57,6 +63,8 @@ main{
         padding: 3.125rem;
         color: $cultured;
         border-radius: 20px;
+        display: flex;
+        flex-direction: column;
     }
         
 }
