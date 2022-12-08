@@ -43,7 +43,7 @@ header{
 
         &:hover{
             color: $light-gray;
-            background-color: $gray-web;
+            
             
         }
 
@@ -62,9 +62,11 @@ main{
         width: 31.25rem;
         padding: 3.125rem;
         color: $cultured;
-        border-radius: 20px;
+        border-radius: 1.25rem;
         display: flex;
         flex-direction: column;
+        gap: 1.875rem;
+        text-align: center;
     }
         
 }
@@ -74,3 +76,13 @@ main{
     text-transform: uppercase;    
 }
 
+
+.buttonNewColor{
+    
+}
+
+@media only screen and (max-width: 768px){
+    main .container {
+        max-width: 300px;
+    }
+}
