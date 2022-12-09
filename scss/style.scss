@@ -82,6 +82,14 @@ main{
 }
 
 @media only screen and (max-width: 768px){
+    .navCenter{
+        gap: 0;
+    }
+
+   
+
+
+
     main .container {
         max-width: 300px;
     }
