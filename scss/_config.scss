@@ -6,3 +6,10 @@
     $cultured: hsla(0, 0%, 95%, 1);
 
 
+.grid-flow{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+
+
+}
