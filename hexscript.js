@@ -12,9 +12,11 @@ btn.addEventListener('click', () => {
         hexColor += colorArray[getRandomNumber()];
     
     }
-    
-    color.textContent = hexColor;
     document.body.style.backgroundColor = hexColor;
+    document.body.style.transition = "1s";    
+    color.textContent = hexColor;
+    color.style.color = hexColor;
+    color.style.transition = "1s";
 
 });
 
