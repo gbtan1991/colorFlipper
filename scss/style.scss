@@ -1,27 +1,55 @@
 @import 'reset';
 @import '_config';
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.8rem;
+
+.navigation{
+    background: $gray-gradient;
+    height: 100px;
+    
+    
+        h1{
+            font-size: 38px;
+            font-weight: 700;
+
+            &:hover{
+                color: $light-gray;
+                
+                
+            }
+        }
+
+        &-links{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 3.125rem;
+            list-style-type: none;
+
+            a{
+                font-size: 20px;
+                text-decoration: none;
+                color: inherit;
+                
+
+                &:hover{
+                    color: $light-gray;
+                    
+                    
+                }
+    
+        }
+    
 }
 
-header{
-    display: block;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    
-    
-    
-}
+
+
+
+
 
 .navCenter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3.125rem;
-    background-color: $davys-grey;
+    
+    
+    
     color: $cultured;
     height: 6.25rem;
 
@@ -43,15 +71,9 @@ header{
     height: 6.25rem;
     
   
-    a{
-        text-decoration: none;
-        color: inherit;
 
-        &:hover{
-            color: $light-gray;
-            
-            
-        }
+
+    
 
     }
     
