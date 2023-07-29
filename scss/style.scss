@@ -8,24 +8,33 @@ body{
 
 
 
-// NAVIGATION CONTROL // 
-
+//NAVIGATION CONTROL//
 
 
 
 .navigation{
-    overflow: hidden;
+    
+    overflow:hidden;
     background-color: $quick-silver;
     margin: 10px 15px;
     padding: 15px 0;
     width: 90vw;
+    height: 100px;
 
-     display: flex;
-     justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
      align-items: center;    
      gap: 1.875rem;
     
- 
+    .navWrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1.875rem;
+        outline: none;
+    }
 
     .logo{
         width: 80px;    
@@ -54,7 +63,7 @@ body{
             text-decoration: none;
             color: $blackish-brown;
             font-size: 1.2rem;
-
+  
             &:hover{
                 color: $accent-purple;
                 text-decoration: underline;
@@ -64,10 +73,65 @@ body{
 
     }
 
- }
+    .icon{
+        visibility: hidden;
+        color: $blackish-brown;
+    }
+
+}   
+    
 
 
+ @media (max-width: 768px){
+    .navigation{
+   
 
+    .logo{
+        width: 50px;
+    }
+    h1>a{
+        font-size: 24px;
+
+    }
+    .navigation-links{
+        visibility: hidden;
+    }
+
+  
+    }
+
+    .container{
+        width: 350px;
+    }
+}
+
+
+@media (max-width: 400px){
+    .navigation{
+        
+
+    .logo{
+        width: 50px;
+    }
+    h1>a{
+        font-size: 20px;
+
+    }
+    .navigation-links{
+        visibility: hidden;
+    }
+
+   
+    }
+
+    .container{
+        width: 300px;
+        h2, .colorName, .buttonNewColor{
+         font-size: 15px;   
+        }
+
+    }
+}
 
 
 
@@ -80,7 +144,7 @@ main{
 
 .container{
     
-    width: 400px;
+    
     padding: 40px;
     background-color: $quick-silver;
     display: flex;

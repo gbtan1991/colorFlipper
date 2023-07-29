@@ -1,10 +1,3 @@
-function toggleMenu() {
-    const navigationLinks = document.getElementById('navigation-links');
-    navigationLinks.classList.toggle('show');
-    const burgerBtn = document.querySelector('.burger-btn');
-    burgerBtn.classList.toggle('show');
-}
-
 
 // DECLARATION OF ARRAY AND ELEMENTS //
 
@@ -28,5 +21,14 @@ let getRandomNumber = () => Math.floor(Math.random() * colorArray.length);
 
 
 
- 
     
+   
+
+
+    
+
+
+    
+
+
+
