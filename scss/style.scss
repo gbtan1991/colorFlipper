@@ -3,13 +3,18 @@
 
 
 .navigation{
-    background: $gray-gradient;
+    background: transparent !important;
     height: 100px;
     
     
         h1{
             font-size: 38px;
             font-weight: 700;
+            background: -webkit-linear-gradient(0deg, red, yellow, green, cyan, blue, magenta);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+            
 
             &:hover{
                 color: $light-gray;
