@@ -3,7 +3,7 @@
 
 
 body{
-    background-color: $cultured;
+    background-color: #FFF;
 }
 
 
@@ -69,7 +69,7 @@ main{
 
 .container{
     
-    width: fit-content;
+    width: 400px;
     padding: 40px;
     background-color: $quick-silver;
     display: flex;
@@ -78,6 +78,7 @@ main{
     
     .colorName{
         text-transform: uppercase;
+        text-shadow: 1px 1px $blackish-brown;
         color: #FFF;
     }
 
@@ -85,7 +86,12 @@ main{
             cursor: pointer;
             border-radius: 5px;
             font-family: inherit;
-            
+     
+            &:active{
+                box-shadow: 0px 0px $davys-grey;
+                transform: translate(3px, 3px);
+            }
+
     }
 }
 }
