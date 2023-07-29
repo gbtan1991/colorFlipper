@@ -1,3 +1,11 @@
+function toggleMenu() {
+    const navigationLinks = document.getElementById('navigation-links');
+    navigationLinks.classList.toggle('show');
+    const burgerBtn = document.querySelector('.burger-btn');
+    burgerBtn.classList.toggle('show');
+}
+
+
 // DECLARATION OF ARRAY AND ELEMENTS //
 
 const colorArray = ['red', 'green', 'blue', 'magenta', 'cyan', 'yellow', 'gray', 'white', 'brown', 'pink', 'orange'];
@@ -17,6 +25,8 @@ btn.addEventListener('click', () => {
 
 //FUNCTION TO GET RANDOM COLOR IN ARRAY//
 let getRandomNumber = () => Math.floor(Math.random() * colorArray.length);
+
+
 
  
     

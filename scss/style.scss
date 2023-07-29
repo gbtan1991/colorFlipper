@@ -8,30 +8,35 @@ body{
 
 
 
+// NAVIGATION CONTROL // 
+
+
+
+
 .navigation{
+    overflow: hidden;
     background-color: $quick-silver;
-    position: relative;
+    margin: 10px 15px;
+    padding: 15px 0;
     width: 90vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-    gap: 1.875rem;
-    margin: 0.625rem 0.9375rem;
-    padding: 0.9375rem 0;
-    z-index: 1;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;    
+     gap: 1.875rem;
     
-    
+ 
 
     .logo{
         width: 80px;    
     }
 
-    h1 > a{
-        font-size: 1.75rem;
-        font-weight: 700;
-        color: $blackish-brown;
-        cursor: pointer;
-        text-decoration: none;
+     h1 > a{
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: $blackish-brown;
+      cursor: pointer;
+      text-decoration: none;
 
         &:hover{
             color: $accent-purple;
@@ -59,7 +64,13 @@ body{
 
     }
 
-}
+ }
+
+
+
+
+
+
 
 main{
 
@@ -95,3 +106,5 @@ main{
     }
 }
 }
+
+
