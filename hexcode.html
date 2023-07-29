@@ -2,39 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Flipper || Hex</title>
-    <!-- my icon -->
-    <link rel="shortcut icon" href="resources/color-palette.svg" type="image/x-icon">
-    <!-- stylesheet -->
     <link rel="stylesheet" href="dist/style.css">
-    <!-- google fonts -->
+    <title>colorFlipper</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./resources/dolphin.ico" type="image/x-icon">
 </head>
-<div>
-    
-    <header>
-        <nav class="navCenter">
-        <h1>colorFlipper</h1>
-        <ul class="navLinks">
-            <li><a href="index.html">simple</a></li>
-            <li><a href="hexcode.html">hex</a></li>
-        </ul>
+<body>
+    <header class="grid-center">
+        <nav class="navigation border-retro">
+            <img src="./resources/dolphin.png" alt="dolphin" class="logo">
+            <h1><a href=index.html>colorFlipper</a></h1>
+                   
+            <ul class="navigation-links">
+                
+                <li><a href="index.html">simple</a></li>
+                <li><a href="hexcode.html">hex</a></li>
+            </ul>
         </nav>
     </header>
-    <main>
-        <section class="container">
-            <h2>Background Color: <span class="colorName">#FFFFFF</span></h2>
-            <button class="buttonNewColor" id="btn">Click Me!</button>
+
+    <main class="grid-center">
+        <section class="container grid-center border-retro">
+            <h2>Background Color: <span class="colorName">White</span></h2>
+            <button class="buttonNewColor border-retro" id="btn">Click to Change Color</button>
         </section>
     </main>
-
-    
-
-<script src="hexscript.js"></script>
+    <script src="hexscript.js"></script>
 </body>
 </html>

@@ -1,15 +1,34 @@
 // COLOR //
+    $blackish-brown: hsl(0, 0%, 10%);
     $davys-grey: hsla(0, 0%, 35%, 1);
     $gray-web: hsla(0, 0%, 50%, 1);
     $quick-silver: hsla(0, 0%, 65%, 1);
     $light-gray: hsla(0, 0%, 80%, 1);
     $cultured: hsla(0, 0%, 95%, 1);
 
+
+    $accent-purple: hsl(250, 100%, 62%);
     $gray-gradient: linear-gradient(90deg, $davys-grey, $quick-silver);
 
 
 *{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.875rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+}
+
+
+.border-retro{
+    border-radius: 5px;
+    border: 2px solid $davys-grey;
+    box-shadow: 4px 4px $davys-grey;
+}
+
+.grid-center{
+    display: grid;
+    place-content: center;
+    
+
+    
+    
 }
 

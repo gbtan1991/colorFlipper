@@ -2,3 +2,90 @@
 @import '_config';
 
 
+body{
+    background-color: $cultured;
+}
+
+
+
+.navigation{
+    background-color: $quick-silver;
+    position: relative;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 1.875rem;
+    margin: 0.625rem 0.9375rem;
+    padding: 0.9375rem 0;
+    z-index: 1;
+    
+    
+
+    .logo{
+        width: 80px;    
+    }
+
+    h1 > a{
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: $blackish-brown;
+        cursor: pointer;
+        text-decoration: none;
+
+        &:hover{
+            color: $accent-purple;
+        }
+    }
+
+    
+    &-links{
+        display: flex;
+        gap: 1.875rem;
+        list-style-type: none;
+        
+
+        a {
+            text-decoration: none;
+            color: $blackish-brown;
+            font-size: 1.2rem;
+
+            &:hover{
+                color: $accent-purple;
+                text-decoration: underline;
+            }
+        }
+
+
+    }
+
+}
+
+main{
+
+    height: 80vh; 
+    overflow-y: hidden;
+    
+
+.container{
+    
+    width: fit-content;
+    padding: 40px;
+    background-color: $quick-silver;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    .colorName{
+        text-transform: uppercase;
+        color: #FFF;
+    }
+
+    .buttonNewColor{
+            cursor: pointer;
+            border-radius: 5px;
+            font-family: inherit;
+            
+    }
+}
+}
