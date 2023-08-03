@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/style.css">
     <title>colorFlipper</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -12,21 +13,24 @@
 </head>
 <body>
     <header class="grid-center">
-        <nav class="navigation border-retro">
+        <nav class="navigation border-retro" id="navigation">
+            <div class="titleWrap">
+
             <img src="./resources/dolphin.png" alt="dolphin" class="logo">
-            <h1><a href=index.html>colorFlipper</a></h1>
-                   
-            <ul class="navigation-links">
-                
-                <li><a href="index.html">simple</a></li>
-                <li><a href="hexcode.html">hex</a></li>
+            <h1><a href=index.html>colorFlipper</a></h1>          
+            </div>
+            
+
+            <ul class="navigation-links" id="navigation-links">
+                <li><a href="index.html">SIMPLE</a></li>
+                <li><a href="hexcode.html">HEX</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="grid-center">
         <section class="container grid-center border-retro">
-            <h2>Background Color: <span class="colorName">#FFFFFF</span></h2>
+            <h2>Background Color: <span class="colorName">WHITE</span></h2>
             <button class="buttonNewColor border-retro" id="btn">Click to Change Color</button>
         </section>
     </main>
